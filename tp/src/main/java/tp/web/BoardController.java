@@ -29,7 +29,7 @@ public class BoardController {
    @Resource(name="boardService")
    private BoardService boardService;
    
-   
+   //수정하고있어요~
    
    @RequestMapping(value = "/insertform.do",method=RequestMethod.GET)
    public String form(BoardVO boardVO) throws Exception{
